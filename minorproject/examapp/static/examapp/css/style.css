@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&family=Rubik:ital,wght@0,400;0,500;1,600&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #202226;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    letter-spacing: .2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #d56f65;
+}
+
+h3 span {
+    font-size: 1.4rem;
+    color: #c45448;
+}
+
+label {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: .05em;
+}
+
+.compl-input {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    height: 300px;
+    width: 1000px;
+    word-break: break-all;
+    color: white;
+    box-sizing: border-box;
+    background-color: #3f4047;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+    /* box-shadow: #202226 0px 2px 4px 0px, #202226 0px 2px 16px 0px; */
+    /* box-shadow: 10px 10px 16px #000; */
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 10px;
+}
+
+.hover-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+    margin: 0rem 1.5rem;
+}
+
+.clear {
+    margin-bottom: 1.2rem;
+}
+
+.save {
+    margin-top: 1.2rem;
+}
+
+.bi {
+    font-size: 1.3rem;
+    /* width: 25px; */
+    /* height: 25px; */
+    background-color: #d56f65;
+    /* border-radius: 50%; */
+    /* padding: 0.8rem; */
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.5em 0.6em;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #3f4047;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.btn-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    width: 20rem;
+    padding: 0.6rem 0.3rem;
+    margin: 0.5rem;
+    color: #fff;
+    background-color: #d56f65;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    border-radius: 0.3rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 10px;
+}
